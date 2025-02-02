@@ -92,3 +92,8 @@ repos:
     hooks:
       - id: check-hooks-apply
       - id: check-useless-excludes
+  - repo: https://codeberg.org/lig/todo-md.git
+    rev: v2.0
+    hooks:
+      - id: todo-md
+
